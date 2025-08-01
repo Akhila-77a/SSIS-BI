@@ -1,0 +1,22 @@
+# End-to-End BI Project (SSIS + SQL + Power BI)
+
+This repository demonstrates a complete Business Intelligence workflow:
+1. **ETL with SSIS** – Extract, transform, and load raw sales data.
+2. **SQL Data Modeling** – Build clean, optimized data models.
+3. **Power BI Dashboards** – Create interactive reports and KPIs.
+
+---
+
+## 📂 Project Structure
+- **SSIS/** → Contains ETL packages and transformation scripts.
+- **SQL/** → Scripts for creating tables, inserting sample data, and modeling.
+- **PowerBI/** → Dashboard files and measure definitions.
+- **Data/** → Sample CSV data for testing.
+
+---
+
+## 🚀 Getting Started
+1. **Load Sample Data**
+   ```sql
+   -- Run SQL/Create_Tables.sql
+   -- Run SQL/Insert_Sample_Data.sql
